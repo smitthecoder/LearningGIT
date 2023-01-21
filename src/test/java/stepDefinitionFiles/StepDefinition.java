@@ -31,5 +31,6 @@ public class StepDefinition {
 	@And("^status is \"([^\"]*)\"$")
 	public void status_Is_True(String status) {
 		System.out.println("Status is " + status);
+		System.out.println("Status is successfully displayed");
 	}
 }
